@@ -10,7 +10,7 @@ This Tax Calculator does not take into account
 This occurs when a pay day falls on 31 Dec or
 in a leap year, on 30 or 31 Dec.
 """
-from src.tax.coefficients import coefficients
+from coefficients import coefficients
 from dataclasses import dataclass, field
 import re
 
